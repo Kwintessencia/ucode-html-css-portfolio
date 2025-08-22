@@ -1,0 +1,11 @@
+h1{
+  margin: 10px 10px 10px 10px;  
+}
+.japan{
+    height: 150px;
+    width: 250px;
+    margin: 10px 10px 10px 10px;
+    border: rgb(196, 184, 184) solid;
+    background-position: center;
+    background: radial-gradient(circle closest-side, #d41212 60%, #d41212 30%, #ffffff 15%);
+}

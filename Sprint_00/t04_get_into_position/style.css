@@ -1,0 +1,15 @@
+h1{
+    width: 100%;
+    margin: auto;
+    background-color: red;
+    padding-bottom: 0px;
+}
+span{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 4em;
+    color: white; 
+    position: relative;
+    left: 25%;
+    top: 30px;  
+}

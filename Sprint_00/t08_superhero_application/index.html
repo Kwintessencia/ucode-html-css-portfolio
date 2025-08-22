@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form id="form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="block">
+    <span>About Superhero</span> <br/>
+    <label>Real name</label>
+        <input type="text" autofocus name="name" placeholder="Superhero real name">
+    <label>Superhero name</label> 
+        <input type="text" name="alias" placeholder="Superhero alias">
+    <label>Age</label> 
+        <input type="number" name="age" min="1" max="999" step="1">
+      <p>
+          <label>About</label> 
+          <textarea name="about" maxlength="500" rows="5" cols="70" placeholder="Iformation about the superhero, max 500 symbols"></textarea>
+      </p>
+      <p>
+          <label>Photo:</label> 
+          <input type="file" name="photo">
+      </p>
+     </div>
+     <div class="block">
+         <span>Powers</span> <br/>
+    <input type="checkbox" name="telekinesis">Telekinesis
+    <input type="checkbox" name="strength">Super strength or speed
+    <input type="checkbox" name="shapeshifting">Shapeshifting
+    <input type="checkbox" name="flight">Flight
+    <input type="checkbox" name="control">Elemental control
+    <input type="checkbox" name="other">Other
+    <p>
+        <label>Level of control:</label>
+        <input type="range" name="level" min="0" max="10" step="1" value="1">
+    </p>
+     </div>
+     <div class="block">
+         <span>Origin of powers</span> <br/>
+    <input type="radio" name="origin">Unknown
+    <input type="radio" name="origin">Freak lab accident
+    <input type="radio" name="origin">Chosen by ancient wisw being
+    <input type="radio" name="origin">The superhero is not human
+    <input type="radio" name="origin">Other
+    </div>
+    <br/>
+    <div id="buttons">
+    <button type="reset">Clear</button>
+    <button type="submit">Send</button>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+input,  button{
+    font-size: medium;
+    font-family: times new roman;
+    color: green;
+    font-weight: normal;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 2em;
+    padding: 0 10px;
+}
+input:hover, button:hover{
+    color: red;
+}
+div{
+    width: 100%;
+}
+input{
+    width: 94%;
+}

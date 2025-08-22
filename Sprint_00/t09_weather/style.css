@@ -1,0 +1,28 @@
+div{
+    display: inline-block;
+}
+.date{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    background: rgb(58, 116, 204);
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Lato Bold', sans-serif;
+    color: white;
+}
+.temperature{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Lato Regular', sans-serif;
+}
+.image{
+    margin: 0px;
+}
+.weather-block{
+    margin: 5px 0px 5px 0px;
+}
+.weather-block:hover{
+    box-shadow: 0px 2px 5px 3px gray;
+}

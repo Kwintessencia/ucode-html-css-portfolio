@@ -1,0 +1,65 @@
+div{
+    display: inline-block;
+    width: 100%;
+}
+div > div{
+    width: 270px;
+    height: 140px;
+    margin: 30px 20px 20px 20px;
+    font-family: Verdana;
+    text-align: right;
+    padding-right: 5px;
+    border: transparent;
+    border-radius: 5px;
+
+}
+#cap{
+    background: linear-gradient(to top, #4568DC, #B06AB3);
+}
+#capimg{
+    position: relative;
+    right: 130px;
+    bottom: 93px;
+    height: 168px;
+    
+}
+#tony{
+    background: linear-gradient(to top, #e52d27, #b31217);
+}
+#tonyimg{
+    position: relative;
+    right: 125px;
+    bottom: 93px;
+    height: 168px;
+    width: 145px;
+    
+}
+#nata{
+    background: linear-gradient(to top, #000, #61045F);
+}
+#nataimg{
+    position: relative;
+    right: 150px;
+    bottom: 93px;
+    height: 170px;
+    
+}
+#peter{
+    background: linear-gradient(to top, #e52d27, #000);
+}
+#peterimg{
+    position: relative;
+    right: 130px;
+    bottom: 115px;
+    height: 170px;
+    
+}
+.alias{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.name{
+    color: rgba(255, 255,255, 0.5);
+    font-size: 9px;
+}
