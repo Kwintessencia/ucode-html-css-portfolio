@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    align-items: baseline;
+}
+input{
+    flex-grow: 190;
+}
+input,  button{
+    color: green;
+    font-weight: normal;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 25px;
+    padding: 0 10px;
+}
+input:hover, button:hover{
+    color: red;

@@ -1,0 +1,20 @@
+li{
+    display: inline-block;
+}
+#gauntlet{
+    height: 200px;
+}
+.person{
+    height: 50px;
+    width: 50px;
+}
+#a{
+    width: 100px;
+    margin-left: 40px;
+}
+#a:hover + #b > .even > li:nth-child(even){
+    visibility: hidden;
+}
+#a:hover + #b > .odd > li:nth-child(odd){
+    visibility: hidden;
+}

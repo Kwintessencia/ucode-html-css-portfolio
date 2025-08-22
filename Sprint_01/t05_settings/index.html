@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Settings</h1>
+    <div class="wrapper">
+        <ul class="menu">
+            <li><img src="assets/images/artistic-brush.png" alt="brush"></li>
+            <li><img src="assets/images/user-icon.png" alt="user"></li>
+            <li><img src="assets/images/sms-speech-bubble.png" alt="bubble"></li>
+            <li><img src="assets/images/computer-screen.png" alt="computer"></li>
+        </ul>
+        <div class="toolbox">
+            <div class="tool">
+            <p>Typeface</p>
+            <select id="select"name="typeface">
+                <option class="typeface">Arial</option>
+                <option class="typeface">Times New Roman</option>
+                <option class="typeface" selected>Acunim Pro</option>
+            </select>
+            </div>
+            <div class="tool">
+                <label for="toggle-button">Dark UI</label>
+                <input type="checkbox" id="toggle-button" class="toggle-button">
+            </div>
+            <div class="tool">
+                <p>Weight</p>
+                    <input type="checkbox" checked>Regular
+                    <input type="checkbox">Bold
+            </div>
+            <div class="tool">
+                <p>Color</p>
+                    <input id="blue" class="radio" checked type="radio" name="color">
+                    <input id="green" class="radio" type="radio" name="color">
+                    <input id="pink" class="radio" type="radio" name="color">
+                    <input id="yellow" class="radio" type="radio" name="color">
+                    <input id="orange" class="radio" type="radio" name="color">
+                </label>
+            </div>
+            <div class="tool">
+                <p>Size</p>
+                <input id="slider" type="range" min="0" max="5" step="1"><br>
+                <span id="small">A</span><span id="big">A</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

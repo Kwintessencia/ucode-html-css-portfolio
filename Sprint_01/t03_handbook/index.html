@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Handbook</title>
+</head>
+
+<body>
+    <h1>Handbook</h1>
+    <h2>Contents</h2>
+    <div class="content">
+        <div class="box">
+            <p><a href="#HTML">HTML-topic</a></p>  
+            <p><a href="#CSS">CSS-topic</a></p>
+            <p><a href="#Protocols">Protocols-topic</a></p>
+            <p><a href="#methods">HTTP/HTTPS methods-subtopic</a></p>
+            <p><a href="#status">HTTP/HTTPS status codes-subtopic</a></p>
+            <p><a href="#DNS">DNS list by types-subtopic</a></p>
+            <p><a href="#IP">Identifying google's IP-subtopic</a></p>
+    </div>
+    <h1><a name="HTML"></a> HTML</h1>
+        <div class="wrapper">
+        <div class="box">
+            <h3>&lt;h1&gt;–&lt;h6&gt;</h3>
+            <p>The &lt;h1&gt; to &lt;h6&gt; HTML elements represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</p>
+            <p><h4>&lt;h4&gt;Heading level 4&lt;/h4&gt;</h4>
+                <h5>&lt;h5&gt;Heading level 5&lt;/h5&gt;</h5>
+                <h6>&lt;h6&gt;Heading level 6&lt;/h6&gt;</h6>
+            </p>
+        </div>
+        <div class="box">
+            <h3>&lt;div&gt;</h3>
+            <p>The &lt;div&gt; HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).</p>
+            <p>&lt;div&gt;&lt;/div&gt;</p>
+            <p>
+                <div>Lorem ipsum dolor sit amet</div><br>
+                <div>Lorem ipsum dolor sit amet </div>
+           </p>
+        </div>
+        <div class="box">
+            <h3>table</h3>
+            <p>Defines an HTML table</p>
+            <p>&lt;table&gt;&lt;/table&gt;</p>
+            <p> <table>
+                <tr>
+                    <td>country1</td>
+                    <td>counry2</td>
+                </tr>
+                <tr>
+                    <td>capital1</td>
+                    <td>capital2</td>
+                </tr>
+                </table>
+            </p>
+        </div>
+        <div class="box">
+            <h3>button</h3>
+            <p>Clickable button</p>
+            <p>&lt;button&gt;&lt;/button&gt;</p>
+            <p><button>Button</button></p>
+        </div>
+        </div>
+
+        <h1><a name="CSS"></a>CSS</h1>
+        <div class="wrapper">
+        <div class="box">
+            <h3>class</h3>
+            <p>A CSS class is an attribute used to define a group of HTML elements in order to apply unique styling and formatting to those elements with CSS.</p>
+            <p>
+                <div class="red">&lt;div class="red"&gt;Lorem ipsum dolor sit amet consectetur&lt;/div&gt;</div><br>
+                <div class="red">&lt;div class="red"&gt;Lorem ipsum dolor sit amet consectetur&lt;/div&gt;</div><br>
+                <div class="red">&lt;div class="red"&gt;Lorem ipsum dolor sit amet consectetur&lt;/div&gt;</div>
+            </p>
+        </div>
+        <div class="box">
+            <h3>font-weight</h3>
+            <p>The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family that is currently set.</p>
+            <p>font-weight: bold</p>
+            <p class="bold">This is bold text</p>
+        </div>
+        <div class="box">
+            <h3>border</h3>
+            <p>The border shorthand CSS property sets an element's border. It sets the values of border-width, border-style, and border-color.</p>
+            <p class="border">This paragraph has a black solid border.</p>
+        </div>
+        <div class="box">
+            <h3>shadow</h3>
+            <p>The text-shadow CSS property adds shadows to text.</p>
+            <p>text-shadow: red</p>
+            <p class="shadow">This paragraph has red shadow</p>
+        </div>
+        </div>
+
+        <h1><a name="Protocols"></a>Protocols</h1>
+        <div class="wrapper_large">
+            <div class="box">
+            <h3>Description</h3>
+            <p>The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.</p>
+            </div>
+            <div class="box">
+                <h3><a name="methods"></a>HTTP/HTTPS methods</h3>
+                <p> GET requests should only retrieve data and should have no other effect.</p>
+                <p>The HEAD method requests that the target resource transfers a representation of its state, like for a GET request, but without the representation data enclosed in the response body. </p>
+                <p>The POST method requests that the target resource processes the representation enclosed in the request according to the semantics of the target resource. </p>
+                <p>The PUT method requests that the target resource creates or updates its state with the state defined by the representation enclosed in the request.</p>
+                <p>The DELETE method requests that the target resource deletes its state.</p>
+                <p>The CONNECT method request that the intermediary establishes a TCP/IP tunnel to the origin server identified by the request target. It is often used to secure connections through one or more HTTP proxies with TLS.</p>
+                <p>The PATCH method requests that the target resource modifies its state according to the partial update defined in the representation enclosed in the request.</p>
+            </div>
+            <div class="box">
+                <h3><a name="status"></a>HTTP/HTTPS status codes</h3>
+                <p><span>1XX (informational)</span>
+                    The request was received, continuing process.</p>
+                <p><span>2XX (successful)</span>
+                    The request was successfully received, understood, and accepted.</p>
+                <p><span>3XX (redirection)</span>
+                    Further action needs to be taken in order to complete the request.</p>
+                <p><span>4XX (client error)</span>
+                    The request contains bad syntax or cannot be fulfilled.</p>
+                <p><span>5XX (server error)</span>
+                    The server failed to fulfill an apparently valid request.</p>
+            </div>
+            <div class="box">
+                <h3><a name="DNS"></a>DNS list by types</h3>
+                <p><span>A record</span>- The record that holds the IP address of a domain. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/">Learn more about the A record.</a> </p>
+                <p><span>AAAA record</span> - The record that contains the IPv6 address for a domain (as opposed to A records, which list the IPv4 address). <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-aaaa-record/">Learn more about the AAAA record.</a></p>
+                <p><span>Chref record</span> - Forwards one domain or subdomain to another domain, does NOT provide an IP address. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-chref-record/">Learn more about the Chref record.</a></p>
+                <p><span>MX record</span> - Directs mail to an email server. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/">Learn more about the MX record.</a></p>
+                <p><span>TXT record</span> - Lets an admin store text notes in the record. These records are often used for email security. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">Learn more about the TXT record.</a></p>
+                <p><span>NS record</span> - Stores the href server for a DNS entry. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/">Learn more about the NS record.</a></p>
+                <p><span>SOA record</span> - Stores admin information about a domain. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-soa-record/">Learn more about the SOA record.</a></p>
+                <p><span>SRV record</span> - Specifies a port for specific services. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-srv-record/">Learn more about the SRV record.</a></p>
+                <p><span>PTR record</span> - Provides a domain href in reverse-lookups. <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/">Learn more about the PTR record.</a></p>
+            </div>
+            <div class="box">
+                <h3><a name="IP"></a>Identifying google's IP</h3>
+                <p>To identify google.com IP, follow next steps:</p>
+                <p>1.Open Terminal</p>
+                <p>2.Paste and run the command nslookup google.com</p>
+                <p>As result, you will receive "href" and "addres":</p>
+                <p>href: google.com.ua</p>
+                <p>Address: 216.58.215.99</p>
+                <p>Repeat steps 1 and 2 to identify google.com.ua IP</p>
+            </div>
+        </div>
+</body>
+
+</html>
